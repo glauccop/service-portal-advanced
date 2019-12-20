@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_ng_template">
+    <sp_ng_template action="INSERT_OR_UPDATE">
+        <id>table-summary-overlay.html</id>
+        <sp_widget display_value="Table Summary">e2d5c5c21c7d00107f442ed7224261f7</sp_widget>
+        <sys_class_name>sp_ng_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 19:36:35</sys_created_on>
+        <sys_id>a6db79561c7540107f442ed72242615e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>table-summary-overlay.html</sys_name>
+        <sys_package display_value="Cloud Dimensions Events" source="x_snc_cloudevents">77108b70610813007f44e59882b97a67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cloud Dimensions Events">77108b70610813007f44e59882b97a67</sys_scope>
+        <sys_update_name>sp_ng_template_a6db79561c7540107f442ed72242615e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 19:53:28</sys_updated_on>
+        <template><![CDATA[<div class="modal-header">
+  <h4 class="modal-title">
+    <button type="button" class="close" 
+            ng-click="modalC.modalInstance.close()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    Event registration: {{ modalC.record.email }}
+  </h4>
+</div>
+<div class="modal-body">
+  <sp-widget widget="modalC.form"></sp-widget>
+</div>]]></template>
+    </sp_ng_template>
+</record_update>
